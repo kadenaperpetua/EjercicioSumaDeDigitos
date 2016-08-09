@@ -21,10 +21,10 @@ public class Main {
 
     public static long sumarDigitos(char[] digitos){
         long suma =0;
-        for(digito : digitos){
-            suma+= decode(char digito);
-            return suma;
+        for( char digito : digitos){
+            suma+= decode(digito);
         }
+        return suma;
     }
 
 }
